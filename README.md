@@ -1,11 +1,26 @@
 ProfitTrailer for Synology NAS Docker
 -------------------------------------
 
-ProfitTrailer is an advanced and powerful crypto trading bot that helps you automate your trading.
+Current ProfitTrailer version: 2.4.55
+
+**ProfitTrailer** is an advanced and powerful crypto trading bot that helps you automate your trading.
 Due to its 24/7, always running nature, it would seem that it is a great fit to run on a NAS such as the ones from Synology.
 
 ProfitTrailer: https://profittrailer.com/
 Wiki: https://wiki.profittrailer.io/
+
+Installation
+------------
+
+TODO
+
+Contribution
+------------
+
+If you find this useful, and you want to contribute, consider joining on one of my affiliate links.
+
+* Coinbase: https://www.coinbase.com/join/soares_6l
+* Binance: https://www.binance.com/en/register?ref=17751938
 
 Credit
 ------
