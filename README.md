@@ -9,7 +9,7 @@ ProfitTrailer for Synology NAS Docker
 Due to its 24/7, always running nature, it would seem that it is a great fit to run on a NAS such as the ones from Synology.
 
 * ProfitTrailer: https://profittrailer.com/
-* Wiki: https://wiki.profittrailer.io/
+* Wiki: https://wiki.profittrailer.com/
 
 Installation
 ------------
