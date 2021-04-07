@@ -60,7 +60,7 @@ If the message *Please finish the setup process in your browser* then you can pr
 #### 6. Opening ProfitTrailer
 
 On a new tab on your browser, open your ProfitTrailer on the same IP address as your Synology NAS, with the port that
-you selected on [*step 4*](4-create-container). In my case NAS is `http://127.0.0.1:5000/` and ProfitTrailer is `http://127.0.0.1:8070/`.
+you selected on [*step 4*](#4-create-container). In my case NAS is `http://127.0.0.1:5000/` and ProfitTrailer is `http://127.0.0.1:8070/`.
 
 Now you can configure your ProfitTrailer with your credentials and start your tradings.
 
