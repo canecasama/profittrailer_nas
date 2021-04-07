@@ -11,8 +11,8 @@ Due to its 24/7, always running nature, it would seem that it is a great fit to 
 * ProfitTrailer: https://profittrailer.com/
 * Wiki: https://wiki.profittrailer.com/
 
-Installation
-------------
+First Installation
+------------------
 
 ### 1. Before Starting
 
@@ -37,7 +37,7 @@ Choose a suitable *Container Name* such as **profittrailer**, and click on *Adva
 
 *(Optional)* Select *Enable auto-restart*, so the container will restart if it gets shutdown.
 
-Click in *Volume*, and then *Add Folder*, find the folder you created on *step 2* and on *Mount Path* type `/app/ProfitTrailer`.
+Click in *Volume*, and then *Add Folder*, find the folder you created on [*step 2*](#2-create-folder) and on *Mount Path* type `/app/ProfitTrailer`.
 
 Click in *Port Settings*, and change *Local Port* from **Auto** to something you will remember and is not in use for
 any other Synology NAS applications. For example `8070`. This number will be used to access your ProfitTrailer later.
@@ -60,17 +60,42 @@ If the message *Please finish the setup process in your browser* then you can pr
 #### 6. Opening ProfitTrailer
 
 On a new tab on your browser, open your ProfitTrailer on the same IP address as your Synology NAS, with the port that
-you selected on *step 4*. In my case NAS is `http://127.0.0.1:5000/` and ProfitTrailer is `http://127.0.0.1:8070/`.
+you selected on [*step 4*](4-create-container). In my case NAS is `http://127.0.0.1:5000/` and ProfitTrailer is `http://127.0.0.1:8070/`.
 
 Now you can configure your ProfitTrailer with your credentials and start your tradings.
+
+Updating to New Version
+-----------------------
+
+**WARNING:** Before proceeding check [ProfitTrailer wiki][pt-wiki], and verify if there is any incompatibility with
+updating the versions. This tutorial will only work if there is no ProfitTrailer incompatibility with the versions.
+
+Remember to **always** backup your data before attempting to update to new versions.
+
+There are two ways to update to a newer version of ProfitTrailer, update on a new folder or on the same folder.
+
+### Update on a new Folder
+
+TODO
+
+### Update on the same Folder
+
+TODO
 
 Contribution
 ------------
 
-If you find this useful, and you want to contribute, consider joining on one of my affiliate links.
+If you find this useful, and you want to contribute, consider joining on one of my affiliate links:
 
 * Coinbase: https://www.coinbase.com/join/soares_6l
 * Binance: https://www.binance.com/en/register?ref=17751938
+
+Or if you prefer, send me some crypto to one of those wallets:
+
+* Dogecoin: `DGDdqWow9uB3DUeVuMWKRzVmewDUSTehQd`
+* Bitcoin: `34yEemB3ZUxJeB5KTnfG9pA2bgTb7Zr5mu`
+* Ethereum: `0x9d3d384Bc20be8edCe1203Be49FbFB579AeA5034`
+* Litecoin: `MFHpiq3ZXDyeZ8AUUwhnV9CfazwGVsnkWz`
 
 Disclaimer
 ----------
@@ -99,3 +124,4 @@ Based on the works from:
 <!-- Links -->
 [docker-link]: https://hub.docker.com/r/canecasama/profittrailer/
 [github-link]: https://github.com/canecasama/profittrailer_nas/
+[pt-wiki]: https://wiki.profittrailer.com/
