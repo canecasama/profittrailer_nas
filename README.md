@@ -55,7 +55,7 @@ Once created the first time, the container will shutdown. You will need to resta
 If you double click your container, and go to *Log*, you should see if all went well.
 If the message *Please finish the setup process in your browser* then you can proceed to the last step.
 
-*(Optional)* You can also check your folder created on *step 2* that it might contain all installation files of ProfitTrailer.
+*(Optional)* You can also check your folder created on [*step 2*](#2-create-folder) that it might contain all installation files of ProfitTrailer.
 
 #### 6. Opening ProfitTrailer
 
@@ -76,7 +76,31 @@ There are two ways to update to a newer version of ProfitTrailer, update on a ne
 
 ### Update on a new Folder
 
-TODO
+#### 1. Stop ProfitTrailer
+
+On your Synoloy NAS, go to *Docker*, then click in *Container*. In there you will see a list of all your running
+containers. Find your instance of the ProfitTrailer, click the **off** switch and wait a few moments until the
+switch turns grey indicating the container is stopped.
+
+#### 2. Follow the installation steps
+
+Just follow all the same steps as on [first installation](#first-installation), but on [*step 2*](#2-create-folder)
+create a different folder as the current running installation, and name the new container with a different *Container Name*.
+
+Once the new ProfitTrailer is installed, stop it following the same steps as [*step 1*](#1-stop-profittrailer).
+
+#### 3. Copy data files
+
+Once the new ProfitTrailer is installed, go to your old ProfitTrailer folder and copy the folder *data* inside the
+new ProfitTrailer folder.
+
+#### 4. Restart the new ProfitTrailer
+
+Now your profit trailer should be working with same configuration as it were before, but with the new ProfitTrailer version.
+
+#### 5. *(Optional)* Delete the old version of ProfitTrailer
+
+In case you want, you can delete the old ProfitTrailer container and the old ProfitTrailer folder.
 
 ### Update on the same Folder
 
