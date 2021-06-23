@@ -39,7 +39,7 @@ Choose a suitable *Container Name* such as **profittrailer**, and click on *Adva
 
 Click in *Volume*, and then *Add Folder*, find the folder you created on [*step 2*](#2-create-folder) and on *Mount Path* type `/app/ProfitTrailer`.
 
-Click in *Port Settings*, and change *Container Port* to 8081, and *Local Port* to something you will remember and is not in use for
+Click in *Port Settings*, and change *Container Port* to `8081`, and *Local Port* to something you will remember and is not in use for
 any other Synology NAS applications. For example `8070`. This number will be used to access your ProfitTrailer later.
 
 Click **Apply**, then **Next**, then verify that all the configuration is correct on the *Summary* and click **Apply** again.
