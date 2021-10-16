@@ -2,7 +2,7 @@ FROM openjdk:8
 
 MAINTAINER Caneca
 
-ENV PT_VERSION=2.4.60
+ENV PT_VERSION=2.5.2
 ENV PT_DL=https://github.com/taniman/profit-trailer/releases/download/${PT_VERSION}/ProfitTrailer-${PT_VERSION}.zip
 ENV WORK_DIR=/app/ProfitTrailer
 
