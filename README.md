@@ -145,7 +145,7 @@ Based on the works from:
 [docker-pull]: https://img.shields.io/docker/pulls/canecasama/profittrailer.svg
 [docker-stars]: https://img.shields.io/docker/stars/canecasama/profittrailer.svg
 [git-last-commit]: https://img.shields.io/github/last-commit/canecasama/profittrailer_nas.svg
-[pt-version]: https://img.shields.io/badge/profittrailer%20version-2.5.6-green
+[pt-version]: https://img.shields.io/badge/profittrailer%20version-2.5.14-green
 
 <!-- Links -->
 [docker-link]: https://hub.docker.com/r/canecasama/profittrailer/
